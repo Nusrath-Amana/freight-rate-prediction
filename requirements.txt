@@ -1,0 +1,17 @@
+# Scorer (score.py)
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+pandas>=2.0,<3
+
+# Modelling
+scikit-learn>=1.4,<2
+xgboost>=2.0,<4
+lightgbm>=4.0,<5
+catboost>=1.2,<2
+
+# Tuning
+optuna>=3.6,<6
+
+# EDA notebook (eda_notebook.ipynb)
+ipython>=8,<10
+ipykernel>=6,<8

@@ -1,0 +1,28 @@
+{
+  "learner": "catboost",
+  "shape": "hybrid",
+  "encoding": "coords",
+  "tuned": true,
+  "trials": 50,
+  "search_space_params": {
+    "learning_rate": 0.08178108420594667,
+    "n_rounds": 500,
+    "leaves": 29,
+    "min_leaf": 56,
+    "l2": 2.516956347947029,
+    "subsample": 0.9974356455063054,
+    "colsample": 0.8554879880028979
+  },
+  "native_params": {
+    "learning_rate": 0.08178108420594667,
+    "iterations": 500,
+    "depth": 5,
+    "min_data_in_leaf": 56,
+    "l2_leaf_reg": 2.516956347947029,
+    "rsm": 0.8554879880028979
+  },
+  "tuning_mape": 4.3558,
+  "holdout_mape": 4.6529,
+  "holdout_clean_mape": 2.1634,
+  "cv_mape": 4.4301
+}
